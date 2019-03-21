@@ -155,7 +155,7 @@ describe AIResponse do
       )
     end
 
-    it 'can pick the winning move from four available moves' do
+    it 'can pick the best move from four available moves' do
       expected_AI_response(
         ['X', 'O', nil,
          'O', 'X', 'X',
